@@ -6,26 +6,26 @@ html, body {
     display: block !important;
 }
 
-a:link {
-    color: black;
+a {
+    color: light-dark(black, white);
     text-decoration: none;
 }
 
 a:visited {
-    color: black;
+    color: light-dark(black, white);
 }
 
 a:hover {
-    color: black;
+    color: light-dark(black, white);
 }
 
 a:active {
-    color: black;
+    color: light-dark(black, white);
 }
 
 .nav-banner {
     width: 100%;
-    border-bottom: solid 1px #000000;
+    border-bottom: solid 1px light-dark(black, white);
 }
 
 .navigation {
@@ -53,7 +53,7 @@ a:active {
 
 .horizontal-box-list li {
     display: inline-block;
-    background-color: white;
+    background-color: light-dark(white, #212121);
     color: white;
     padding: 5px 25px;
     border-radius: 4px;
@@ -61,7 +61,7 @@ a:active {
 }
 
 .horizontal-box-list li:hover {
-  background-color: #dbdbdb;
+  background-color: light-dark(#dbdbdb, #545454);
   transform: translateY(-3px);
 }
 
