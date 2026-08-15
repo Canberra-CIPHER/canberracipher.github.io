@@ -100,3 +100,12 @@ a:active {
   display: block;
   border-radius: 4px;
 }
+
+.MentorTemplate_1{
+ display: flex;
+ gap: 30px
+}
+
+.Text_1{
+  text-align: left;
+}
