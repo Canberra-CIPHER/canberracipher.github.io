@@ -209,6 +209,8 @@ img {
 
 .contact-us-text {
     border-bottom: solid 1px light-dark(black, white);
+	padding-left: 20px;
+ 	padding-right: 20px;
 }
 
 .footer-banner p:last-child {
